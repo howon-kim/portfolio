@@ -1,0 +1,153 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage[margin=75pt]{geometry}
+\usepackage{latexsym}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-7pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-1pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Howon Kim}} & Email : \href{mailto:howonkim@berkeley.edu}{howonkim@berkeley.edu}\\
+  {Software Engineer} & Mobile : +1-408-628-2000 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California at Berkeley}{Berkeley, CA}
+      {Bachelor of Art in Computer Science}{Aug. 2018 -- Dec. 2020}
+    \resumeItemListStart
+        \resumeItem{Coursework}{Data Structures, Artificial Intelligence, Techniques of Data Science, Discrete Mathematics and Probability, Adaptive Instruction Methods in CS.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+        {University of California, Berkeley}{Berkeley, CA}
+        {Computer Science Department Tutor}{Jan 2019 - Apr 2019}
+        \resumeItemListStart
+            \resumeItem{Programming and Data Structure}
+            {Teach programming skills using Python and Data Structure using Java.}
+            \resumeItem{Data Analysis}
+            {Tutor data science; Teach how to classify big data, visualize it, and interpret it.}
+            \resumeItem{Skillset}{Through Adaptive Instruction Methods in Computer Science, learn and teach how to illustrate big-idea into practice; tutor computer and data science by considering psycho-social factors that affect learning in all levels.}
+            \resumeItemListEnd
+
+    \resumeSubheading
+      {Samsung Korea Innovative Center}{Daegu, South Korea}
+      {Software Engineer}{Sep 2017 - Dec 2017}
+      \resumeItemListStart
+        \resumeItem{Virtual Reality}
+        {Built an innovative new Virtual Reality space featuring shooting game.}
+        \resumeItem{Unity}
+        {Used Unity features such as collier, rigidbody, and raycast to implement interactive objects.}
+        \resumeItem{C-Sharp}
+        {Wrote a script to control components and made own algorithm that each game component is communicating, destroying, and duplicating by itself.}
+        \resumeItem{Augmented Reality}
+        {Using Apple’s ARKit, rendered objects in the real space showing realistic combat effects with space theme.}
+    \resumeItemListEnd
+      \resumeSubHeadingListEnd
+
+    
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{RISC-V Neural Net}{Implemented Artificial Neural Net(ANN) to classify handwritten digits into actual numbers by using numerical operations such as vector inner product, matrix multiplication, and thresholding by RISC-V assembly language.}
+    \resumeSubItem{Ham and Spam Detection}{Made spam detection using logistic regression model and K-fold cross validation to validate the sigmoid function.}
+    \resumeSubItem{Interactive 2D Game}{Designed own data structure to save different tiles, locations of stars and characters. Made own algorithm to generate a randomized game map each time a player played.}
+    \resumeSubItem{Collaborative Travel Schedule Application}
+      {Developed iOS Application using Swift, Firebase, MapKit, and Core Location. Users can add or remove location pins for travel plan with the  location data synced with Firebase.}
+    \resumeSubItem{Maps}
+      {Wrote a library package using Java to emulate a stripped-down version of Google maps. Using Dijkstra’s algorithm and A*, the package finds the shortest route to a point from two or more locations and prints out directions and distance.}
+    \resumeSubItem{Language Identification}
+      {Built a Recurrent Neural Network (RNN) model that identifies language for one word at a time.}
+    \resumeSubItem{Pacman AI}
+      {Built pacman agents on Gridworld, then applied them to a simulated robot controller (Crawler) and Pacman using value iteration and Q-learning.}
+    \resumeSubItem{Workshop Sign-up System}
+    {Built a college-wide sign-up web application using Google Script, Google forms, and Spreadsheet. The application was developed in 2014 and still in-use.}
+      \resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Languages}
+    {Java, Python, C, C++, C-Sharp, SQL, Pandas, Swift, LaTeX.}
+    \resumeSubItem{Technologies}
+    {MySQL, Git, Unity 3D, Xcode.}
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}

@@ -1,97 +1,112 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
-  jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
+  baseUrl: "https://howon.kim",
+  name: "Howon Kim",
+  jobDescription: "Computer Vision Engineer",
+  about: `Experienced Computer Vision Engineer with a strong background in machine learning, data science, and software engineering. Currently employed at Ultium Cells LLC, a joint venture between GM and LG Energy Solution, where I analyze terabytes of data to prevent defects in battery manufacturing processes. Recognized with 1st Prize globally within LGES Corporation for outstanding data analysis. Proficient in Python, C++, and various vision technologies. Prior roles include High Performance Computing Engineer at Hewlett Packard Enterprise and Software Engineering Lead at ReviewMe, where I developed innovative machine learning models and secured government funding for patents. With a track record of success in diverse settings, from startups to established corporations, I bring expertise in computer science, algorithms, and technology management.
   `,
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
+      name: "Ultium Cells (GM)",
+      location: "Ohio, US",
+      startDate: "August 2023",
       endDate: "Present",
       description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
+        "•	Analyzed terabytes of data on Electrode Inspection to develop statistical models.",
+        "•	Developed deep learning algorithms for vision-based defect detection from images.",
+        "•	Utilized various optical techniques and camera systems including Keyence, Cognex, Basler.",
+        "•	Awarded 1st Prize in a Global Data Analysis Competition by LG Energy Solution.",
+        "•	Possess a systematic understanding of advanced manufacturing systems including PLC, SPC, and MES."
       ],
     },
 
     {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
+      name: "Ultium Cells (OEM)",
+      location: "Ohio, US",
+      startDate: "April 2023",
+      endDate: "Ausust 2023",
       description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
+        "•	Utilized camera systems including Keyence, Cognex, Basler to create custom vision inspection software.",
+        "•	Integrated and optimized APIs of camera systems, enhancing functionality and streamlining workflows.",
+        "•	Leveraged programming skills in C++, MFC, WPF, and Python to deliver high-quality software solutions.",
+        "•	Developed deep learning algorithms utilizing large-scale data sets during manufacturing procedure to effectively identify defects in battery images."
       ],
     },
 
     {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
+      name: "Hwelett Packard Enterprise",
+      location: "California, US",
+      startDate: "January 2023",
+      endDate: "February 2023",
       description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
+        "•	HPC engineer at National Energy Research Scientific Computing Center at Berkeley Lawrence Laboratory."
       ],
     },
+
+    {
+      name: "ReviewMe",
+      location: "Seoul, Korea",
+      startDate: "September 2020",
+      endDate: "December 2021",
+      description: [
+        "•	Developed a custom deep learning model to evaluate human’s concentration level using facial components and brain waves. Facial analysis software is developed by Swift using MLKit, ARKit, and Vision frameworks.", 
+        "•	Work as product manager with deeper understanding of various technology stacks work with external team.",
+        "•	Granted government AI funds for its patent of book recommendation system and machine learning model."
+      ],
+    },
+
+    {
+      name: "Samsung Electronics",
+      location: "Suwon, Korea",
+      startDate: "June 2020",
+      endDate: "August 2020",
+      description: [
+        "•	Researched machine learning project optimizing notifications for efficient categorization and delivery.",
+        "•	Analyzed and optimized the legacy code of the Android framework.",
+        "•	Experienced in Git, documentation, agile development, and effective communication with team members.",
+        "•	Led weekly intern sprint planning sessions and daily stand-up meetings to manage milestones, prioritize tasks, and ensure timely completion of deliverables."
+      ],
+    },
+
+    {
+      name: "AltoyGames",
+      location: "Seoul, Korea",
+      startDate: "January 2020",
+      endDate: "June 2020",
+      description: [
+        "•	Developed core components of game algorithm in C# and Unity 3D.",
+        "•	Developed first VR static FPS game to reduce eye strains and enhance gaming experience."
+      ],
+    }
   ],
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
+      name: "University of California at Berkeley (UC Berkeley)",
+      location: "Berkeley, California, USA",
+      startDate: "2017",
       endDate: "2022",
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        "Bachelor's,  Data Science",
       ],
-    },
-    {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
-    },
-    {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
     },
   ],
 
   socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100022899849583",
-    twitter: "https://twitter.com/Uzzii_21",
-    github: "https://github.com/uzzii-21",
-    email: "mailto:uzairahmed@74372gmail.com",
-    linkedin: "https://www.linkedin.com/in/uzzii21/",
+    facebook: "",
+    twitter: "",
+    github: "https://github.com/howon-kim",
+    email: "mailto:career@howon.kim",
+    linkedin: "https://linkedin.com/in/howonkim",
   },
 
-  projects: [
+    projects: [
     {
-      title: "Astro Portfolio",
-      isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      //title: "Astro Portfolio",
+      //isFeatured: true,
+      //thumbnail: "/assets/images/astro-portfolio.png",
+      //githubUrl: "https://github.com/uzzii-21/astro-portfolio",
+      //liveUrl: "https://astro-portfolio-uzair.vercel.app/",
     },
   ],
 };
